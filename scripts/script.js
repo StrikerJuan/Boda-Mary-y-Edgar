@@ -8,6 +8,10 @@ document.addEventListener("DOMContentLoaded", function () {
         console.error("No se encontró el elemento de audio.");
     }
 
+    audio.play().catch((err) => {
+      console.log('El navegador bloqueó autoplay:', err);
+    });
+
     
     //  Creacion de cronometro
     function crearCountdown(){
