@@ -69,6 +69,8 @@ section {
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
+    justify-content: center;
+    align-items: center;
 }
 
 #crono::after,
@@ -432,7 +434,7 @@ audio::-webkit-media-controls-toggle-closed-captions-button {
     border: 1px solid #4b512f;
     border-radius: 10px;
     padding: 10px;
-    width: 80px;
+    width: 85px;
 }
 
 .box-num,
@@ -961,7 +963,9 @@ form label {
 .dedicatoria-container {
     max-width: 80%;
     font-family: 'Philosopher', serif;
-    color: #111;
+    color: #b6d13d;
+    z-index: 2;
+    text-align: center;
 }
 
 .dedicatoria-carta {
@@ -1828,8 +1832,10 @@ body {
     }
 
     .dedicatoria-firma {
-        padding-left: 3rem;
+        /* padding-left: 3rem; */
         font-size: 40px;
+        text-align: center;
+        padding-left: 0px;
     }
 
     /*--------------------------------------------------Pantalla 3-----------*/
