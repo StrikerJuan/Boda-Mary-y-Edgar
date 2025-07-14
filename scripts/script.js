@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     let urlWa;
     if (currentDateWa < disableDate) {
-        urlWa = `https://wa.me/5576869262?text=Confirmo%20mi%20asistencia%20!!!%20`;
+        urlWa = `https://wa.me/5562273466?text=Confirmo%20mi%20asistencia%20!!!%20`;
     } else {
         // Si la fecha actual es posterior a la fecha límite, desactivar el enlace
         urlWa = "#"; // O simplemente no asignar un valor
