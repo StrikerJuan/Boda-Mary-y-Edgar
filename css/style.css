@@ -899,12 +899,14 @@ form label {
     font-family: 'Amoresa', cursive;
     font-size: 5.25rem;
     margin: 0;
+    color: #cca300;
 }
 
 .simbolo {
     font-family: 'Hello-Paris', regular;
     font-size: 3.5rem;
     margin: 10px 0 20px;
+    color: #cca300;
     /* espacio arriba y abajo */
 }
 
