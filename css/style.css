@@ -307,6 +307,7 @@ audio::-webkit-media-controls-toggle-closed-captions-button {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .vineta-sup,
@@ -916,7 +917,7 @@ form label {
 
 .frase {
     font-size: 2rem;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     letter-spacing: 2px;
     color: #333;
 }
@@ -1577,7 +1578,7 @@ form label {
   justify-content: center;
   gap: 40px;
   flex-wrap: wrap;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 .columna {
@@ -1588,7 +1589,7 @@ form label {
 .columna img {
   width: 200px;
   filter: brightness(0) saturate(100%) invert(25%) sepia(27%) saturate(875%) hue-rotate(38deg) brightness(93%) contrast(87%);
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 .columna h3 {
@@ -1814,7 +1815,7 @@ html{
 
     .simbolo {
         font-size: 38px;
-        margin: 8px 0 16px;
+        margin: 0;
     }
 
     .frase {
@@ -1826,7 +1827,7 @@ html{
     .fecha-bloque {
         flex-direction: column;
         gap: 12px;
-        margin: 30px 0;
+        margin: 1rem 0;
     }
 
     .fecha-lado {
