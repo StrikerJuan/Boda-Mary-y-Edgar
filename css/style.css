@@ -1603,6 +1603,11 @@ body {
     overflow-x: hidden;
 }
 
+html{
+    transform: scale(0.9);
+  transform-origin: top left;
+}
+
 @media screen and (max-width: 1500px) {
     .carrusel {
         height: 100vh;
