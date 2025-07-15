@@ -1602,7 +1602,7 @@ body {
     overflow-x: hidden;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1500px) {
     .carrusel {
         height: 100vh;
         background-position: center;
