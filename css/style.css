@@ -294,7 +294,7 @@ audio::-webkit-media-controls-toggle-closed-captions-button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100%;
+    /* height: 100%; */
 }
 
 .info-container div {
@@ -304,6 +304,9 @@ audio::-webkit-media-controls-toggle-closed-captions-button {
 .detalles-container div,
 .regalos-container div {
     max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .vineta-sup,
@@ -874,7 +877,7 @@ form label {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 80px 20px;
+    /* padding: 80px 20px; */
     text-align: center;
     height: auto;
 }
@@ -883,7 +886,7 @@ form label {
     max-width: 90%;
     width: 100%;
     margin: 0px auto;
-    padding: 0 20px;
+    padding: 0 5%;
 }
 
 .nombre {
@@ -1035,7 +1038,8 @@ form label {
 /*--------------------------------------------------Pantalla 4-----------*/
 #detalles {
     min-height: 100vh;
-    padding: 80px 40px;
+    /* padding: 80px 40px; */
+    padding: 10%;
     background-image: url('../img/fondo-1.jpg');
     /* opcional si quieres fondo decorativo */
     background-color: rgb(255, 255, 255);
@@ -1223,6 +1227,7 @@ form label {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 95%;
 }
 
 #itinerario {
@@ -1293,6 +1298,7 @@ form label {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .timeline ul {
@@ -1395,7 +1401,7 @@ form label {
     font-family: "Philosopher", regular;
     font-optical-sizing: auto;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1rem;
     font-style: italic;
 }
 
@@ -1544,7 +1550,8 @@ form label {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 80px 40px;
+    /* padding: 80px 40px; */
+    padding: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1667,7 +1674,7 @@ html{
 
     .detalles-header p,
     .regalos-header p {
-        font-size: 40px;
+        font-size: 2.5rem;
     }
 
     .detalles-iconos,
@@ -1789,15 +1796,15 @@ html{
     /*-----------------------------------------------------------nuevo css-----------*/
     /*--------------------------------------------------Pantalla 1-----------*/
     #invitacion {
-        padding: 40px 10px;
+        /* padding: 40px 10px; */
     }
 
     .invitacion-container {
-    padding-top: 55px;
+    padding: 5%;
 }
 
     .nombre {
-        font-size: 52px;
+        font-size: 3.5rem;
     }
 
     .simbolo {
@@ -1806,8 +1813,8 @@ html{
     }
 
     .frase {
-        font-size: 18px;
-        padding: 0 15px;
+        font-size: 1rem;
+        /* padding: 0 15px; */
         line-height: 1.4;
     }
 
@@ -1819,16 +1826,16 @@ html{
 
     .fecha-lado {
         width: 100%;
-        font-size: 25px;
+        font-size: 1.75rem;
     }
 
     .fecha-dia {
-        font-size: 46px;
+        font-size: 2.5rem;
     }
 
     .fecha-mes,
     .direccion {
-        font-size: 22px;
+        font-size: 1.5rem;
         padding: 0 10px;
     }
 
