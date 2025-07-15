@@ -875,6 +875,7 @@ form label {
     background-position: center;
     padding: 80px 20px;
     text-align: center;
+    height: auto;
 }
 
 .invitacion-container {
@@ -1045,6 +1046,7 @@ form label {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: auto;
 }
 
 
@@ -1416,6 +1418,8 @@ form label {
     display: flex;
     justify-content: center;
     align-items: center;
+    max-height: none;
+    height: auto;
 }
 
 .regalos-container {
@@ -1544,6 +1548,7 @@ form label {
     align-items: center;
     text-align: center;
     gap: 60px;
+    height: auto;
 }
 
 #dress-code .titulo {
