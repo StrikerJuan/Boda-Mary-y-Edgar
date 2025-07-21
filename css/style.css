@@ -1001,6 +1001,7 @@ form label {
 /*--------------------------------------------------Pantalla 3-----------*/
 #familia {
     min-height: 100vh;
+    height: auto;
     padding: 80px 40px;
     background-image: url('../img/fondo1.jpg');
     /* opcional si quieres fondo decorativo */
@@ -1872,6 +1873,7 @@ html{
     /*--------------------------------------------------Pantalla 3-----------*/
     #familia {
         padding: 40px 20px 0px 20px;
+        height: auto;
     }
 
     .familia-container {
