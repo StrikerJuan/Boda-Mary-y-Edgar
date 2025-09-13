@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("anio").innerText = anio;
 
     const currentDateWa = new Date();
-    const disableDate = new Date('2025-09-11T23:59:59');
+    const disableDate = new Date('2025-12-11T23:59:59');
 
     let urlWa;
     if (currentDateWa < disableDate) {
